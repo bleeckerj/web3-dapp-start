@@ -4,8 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "production": "vite --host freshlumber.herokuapp.com/ --port 9090"
+    "preview": "vite preview"
   },
   "dependencies": {
     "bootstrap": "^5.1.3",

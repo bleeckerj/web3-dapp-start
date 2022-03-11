@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+  }
+  .divOuter {
+    height: 50%;
+    width: 100%;
+  }
+  
+  .copybox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .App {
+    height: 50vh;
+    width: 100%;
+  }
+  .Box1 {
+      height: 20vh;
+      width: 100%;
+  }
+  .Box2 {
+      height: 20vh;
+      width: 100%;
+  }
+  .Box3 {
+    height: 20vh;
+    width: 100%;
+}
+.Box4 {
+      height: 20vh;
+      width: 100%;
+  }
+.MintButton {
+      height: 10vh;
+      width: 100%;
+      position: relative;
+      border: 3px solid black;
+  }
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
